@@ -1,2 +1,6 @@
 bin
 obj
+
+default.profraw
+*.Local.json
+.vscode
