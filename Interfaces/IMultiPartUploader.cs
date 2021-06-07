@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Web6.Models;
+using Uploader.Models;
 
-namespace Web6.Interfaces
+namespace Uploader.Interfaces
 {
   public interface IMultiPartUploader
   {

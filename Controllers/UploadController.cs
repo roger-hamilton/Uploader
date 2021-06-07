@@ -2,10 +2,10 @@ using System;
 using System.Threading.Tasks;
 using Amazon.S3;
 using Microsoft.AspNetCore.Mvc;
-using Web6.Interfaces;
-using Web6.Models;
+using Uploader.Interfaces;
+using Uploader.Models;
 
-namespace Web6.Controllers
+namespace Uploader.Controllers
 {
   [Route("uploads")]
   public class UploadController : ControllerBase

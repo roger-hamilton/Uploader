@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Web6": {
+    "Uploader": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

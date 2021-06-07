@@ -4,9 +4,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Amazon.S3;
-using Web6.Interfaces;
-using Web6.Services;
-using Web6.Models;
+using Uploader.Interfaces;
+using Uploader.Services;
+using Uploader.Models;
 using Serilog;
 using Amazon.Runtime;
 

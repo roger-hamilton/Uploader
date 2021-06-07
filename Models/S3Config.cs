@@ -1,4 +1,4 @@
-namespace Web6.Models
+namespace Uploader.Models
 {
   public class S3Config
   {

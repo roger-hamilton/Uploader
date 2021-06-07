@@ -4,14 +4,14 @@ using System.Threading;
 using System.Threading.Tasks;
 using Amazon.S3;
 using Microsoft.Extensions.Options;
-using Web6.Models;
-using Web6.Extensions;
+using Uploader.Models;
+using Uploader.Extensions;
 using System.Linq;
 using Amazon.S3.Model;
-using Web6.Interfaces;
+using Uploader.Interfaces;
 using Microsoft.Extensions.Logging;
 
-namespace Web6.Services
+namespace Uploader.Services
 {
   public class MultiPartUploader : IMultiPartUploader
   {
